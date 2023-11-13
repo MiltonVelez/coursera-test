@@ -3,9 +3,192 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> HELLO WORLD</title>
+	<title> HELLO WORLD GREAT</title>
+	<link rel="stylesheet" href="style.css">
+
+
+	<style >
+
+/* everything can and shoudl go in style.css */
+	#box{
+		background-color: lightblue;
+		padding: 10px;
+		border: 1px solid black;
+		margin: 40px;
+		width: 300px;
+		height: 100px;
+		overflow: auto;
+
+	}
+
+	#content{
+		background-color: green;
+	}
+	#BG{
+		width: 300px;
+		height: 300px;
+		text-align: center;
+		background-color: lightblue;
+		background-image: url("ainz.jpeg");
+		background-size: 200px;
+		background-repeat: no-repeat;
+		background-position: bottom;
+
+/*		background: url("ainz.jpeg") no-repeat bottom blue ;*/
+
+	}
+
+	#P1,#P2,#P3,#P4 {
+		width: 50%;
+		
+		border: 1px solid black;
+		float: left;
+/*		margin-right: 5px;*/
+	}
+	#P1{
+		background-color: #A52A2A;
+			}
+	#P2{
+		background-color: lightcoral;
+	
+	}
+	#P3{
+		background-color: darkgoldenrod;
+		width: 50px;
+		height: 50px;
+		clear: left;
+		position: relative;
+	
+		left: 200px;
+	
+	}
+	#P4{
+		width: 50px;
+		height: 50px;
+		background-color: yellowgreen;
+		position: absolute;
+		top: 120px;
+
+	
+	}
+	section{
+		clear: left;
+
+	}
+	div#container{
+		position: relative;
+		background-color: lightblue;
+		top: 50px;
+	}
+
+
+
+	</style>
+	
 </head>
 <body>
-<h1> TEST </h1>
+<h1>  THIS is &lt and &gt &copy  </h1>
+	<div>
+		<ul>
+			<li class="darkblue">Carne 
+				<ul>
+					<li>Steak
+						<img src="steak.jpeg" width="100" height="100 alt="Steak"></li>
+						
+					<li>Pork</li>
+				</ul>
+
+			</li>
+			<li>Huevos</li>
+			<li>Oreos
+				<div><img src="oreos.jpeg" width="100" height="100 alt="oreos">
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<div>
+		<ol>
+			<li><a href="/">Buy</a></li>
+			<li>Store</li>
+
+		</ol>
+
+
+	</div>
+
+	<article>
+		<p class="style">
+			
+			 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</article>
+
+<p>	
+THIS IS A PARRAGRAH
+</p>
+<a href="" title="Nothing"> 
+<div id="name"> CLICK HERE</div>
+</a>
+<p>
+	<a href="http://www.youtube.com" target="_blank" title="Go to youtube"> YOUTUBE </a>
+</p>
+
+
+<!--  Not perfered style -->
+<h2 style="text-align: center; color: maroon;">
+	NEW WAY TO STYLE
+</h2>
+
+<h3>
+  Testing external style page/ Background Properties
+</h3>
+	<div id="BG">
+		Backgrouds are fun
+	</div>
+
+<div id="box">
+	<div id="content">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+</div>
+
+<div id="container">
+	<p id="P1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<p id="P2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p id="P3"></p>
+	<p id="P4"></p>
+	<section>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</section>
+</div>
+
+
 </body>
 </html>
